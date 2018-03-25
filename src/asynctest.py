@@ -11,7 +11,7 @@ max = 15
 min = 7
 
 loop = asyncio.get_event_loop() 
-uri = 'ws://localhost:8083'
+uri = 'ws://10.240.228.30:8083'
 messages = []
 connections = []
 speed = 0
@@ -51,7 +51,7 @@ async def doesStuff():
 			for i in range(length, len(messages)):
 				print("recieved: " + messages[i])
 				length = len(messages)
-		await asyncio.sleep(1)
+		await asyncio.sleep(.1)
 
 def signal_handler(signal, frame):  
     loop.stop()
