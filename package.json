@@ -1,0 +1,32 @@
+{
+  "name": "woz-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Newton",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bluebird": "^3.5.20",
+    "@types/lodash": "^4.14.104",
+    "@types/ramda": "^0.25.20",
+    "bluebird": "^3.5.1",
+    "json-loader": "^0.5.7",
+    "lodash": "^4.17.5",
+    "ramda": "^0.25.0",
+    "raw-loader": "^0.5.1",
+    "timestring": "^5.0.0",
+    "uuid": "^3.2.1",
+    "ws": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.1.1"
+  }
+}
